@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AppLogger</id>
+    <version>1.0.0</version>
+    <title>NuGetPackage Test</title>
+    <authors>AppLogger</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\hasithadharmapriya\source\repos\NuGetPackage\AppLogger\bin\Release\net8.0\AppLogger.dll" target="lib\net8.0\AppLogger.dll" />
+  </files>
+</package>

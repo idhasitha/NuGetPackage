@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hasithadharmapriya\\source\\repos\\NuGetPackage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F01E0819-C068-4561-BB09-C05688F8C7A7}|AppLogger\\AppLogger.csproj|c:\\users\\hasithadharmapriya\\source\\repos\\nugetpackage\\applogger\\applogger.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F01E0819-C068-4561-BB09-C05688F8C7A7}|AppLogger\\AppLogger.csproj|solutionrelative:applogger\\applogger.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F01E0819-C068-4561-BB09-C05688F8C7A7}|AppLogger\\AppLogger.csproj|c:\\users\\hasithadharmapriya\\source\\repos\\nugetpackage\\applogger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F01E0819-C068-4561-BB09-C05688F8C7A7}|AppLogger\\AppLogger.csproj|solutionrelative:applogger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppLogger",
+              "DocumentMoniker": "C:\\Users\\hasithadharmapriya\\source\\repos\\NuGetPackage\\AppLogger\\AppLogger.csproj",
+              "RelativeDocumentMoniker": "AppLogger\\AppLogger.csproj",
+              "ToolTip": "C:\\Users\\hasithadharmapriya\\source\\repos\\NuGetPackage\\AppLogger\\AppLogger.csproj",
+              "RelativeToolTip": "AppLogger\\AppLogger.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-20T07:24:29.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\hasithadharmapriya\\source\\repos\\NuGetPackage\\AppLogger\\Logger.cs",
+              "RelativeDocumentMoniker": "AppLogger\\Logger.cs",
+              "ToolTip": "C:\\Users\\hasithadharmapriya\\source\\repos\\NuGetPackage\\AppLogger\\Logger.cs",
+              "RelativeToolTip": "AppLogger\\Logger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:17:06.254Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "0T/tYrnv4qGgWPyrbDaIDh+6aTkbeaWTH3fjfm2Bm2AU397iUHsqwG+el+U4woV3Qt1CYX28wgEnqcos2URNag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasithadharmapriya\\source\\repos\\NuGetPackage\\AppLogger\\AppLogger.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://cma-devops:8080/tfs/DefaultCollection/_packaging/Camms.Core/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
