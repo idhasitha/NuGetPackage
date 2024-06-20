@@ -1,0 +1,33 @@
+name: Publish NuGet Package
+
+on:
+  push:
+    branches:
+      - main  # Change to the branch you want to trigger the action
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '8.0'  # Change to the .NET version you are using
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Pack
+      run: dotnet pack --configuration Release --no-build --output ./nupkgs
+
+    - name: Publish NuGet package
+      env:
+        NUGET_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+      run: dotnet nuget push ./nupkgs/*.nupkg --source "github"
