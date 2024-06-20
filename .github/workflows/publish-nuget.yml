@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Change to the branch you want to trigger the action
 
+permissions:
+  packages: write
+  contents: read
+  
 jobs:
   build:
     runs-on: ubuntu-latest
