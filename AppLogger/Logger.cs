@@ -4,7 +4,7 @@
     {
         public void Log(string text)
         {
-            //dfd
+            //dfd xfg
             Console.WriteLine(text);
         }
     }
