@@ -29,5 +29,5 @@ jobs:
 
     - name: Publish NuGet package
       env:
-        NUGET_API_KEY: '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'
+        NUGET_API_KEY: ${{ secrets.NUGET_TOKEN }}
       run: dotnet nuget push ./nupkgs/*.nupkg --source "github"
