@@ -29,5 +29,5 @@ jobs:
 
     - name: Publish NuGet package
       env:
-        NUGET_API_KEY: ${{ secrets.NUGET_TOKEN }}
+        NUGET_API_KEY: "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"
       run: dotnet nuget push "/home/runner/work/NuGetPackage/NuGetPackage/nupkgs/AppLogger.1.0.0.nupkg" --api-key "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" --source "https://nuget.pkg.github.com/idhasitha/index.json"
