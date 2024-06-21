@@ -28,4 +28,4 @@ jobs:
       run: dotnet pack --configuration Release --no-build --output ./nupkgs
 
     - name: Publish NuGet package     
-      run: dotnet nuget push "/home/runner/work/NuGetPackage/NuGetPackage/nupkgs/AppLogger.1.0.0.nupkg" --api-key ${{ secrets.GT_KEY }}  --source "https://nuget.pkg.github.com/idhasitha/index.json"
+      run: dotnet nuget push "/home/runner/work/NuGetPackage/NuGetPackage/nupkgs/AppLogger.1.0.0.nupkg" --api-key ${{ secrets.GT_KEY }}  --source "github"
