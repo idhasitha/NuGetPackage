@@ -18,18 +18,17 @@ jobs:
       with:
         dotnet-version: '8.0'  # Change to the .NET version you are using
 
-       - name: Install GitVersion
-        run: dotnet tool install -g GitVersion.Tool
+    - name: Install GitVersion
+      run: dotnet tool install -g GitVersion.Tool
 
-      - name: Determine version
-        id: gitversion
-        run: gitversion /output json /output buildserver
-        env:
+    - name: Determine version
+      id: gitversion
+      run: gitversion /output json /output buildserver
+      env:
           GITHUB_TOKEN: ${{ secrets.GT_KEY }}
 
-      - name: Set up GitVersion variables
-        run: echo "##vso[task.setvariable variable=PackageVersion]${{ steps.gitversion.outputs.SemVer }}"
-        
+    - name: Set up GitVersion variables
+      run: echo "##vso[task.setvariable variable=PackageVersion]${{ steps.gitversion.outputs.SemVer }}"        
 
     - name: Restore dependencies
       run: dotnet restore
