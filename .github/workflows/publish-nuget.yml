@@ -18,6 +18,22 @@ jobs:
       with:
         dotnet-version: '8.0' 
 
+    - name: Install GitVersion
+      run: dotnet tool install -g GitVersion.Tool
+
+    - name: Add GitVersion to PATH
+      run: echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+
+    - name: Determine version
+      id: gitversion
+      run: gitversion /output json /output buildserver
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up GitVersion variables
+      run: echo "##vso[task.setvariable variable=PackageVersion]${{ steps.gitversion.outputs.SemVer }}"
+
+
     - name: Restore dependencies
       run: dotnet restore
 
