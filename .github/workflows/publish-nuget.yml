@@ -28,4 +28,4 @@ jobs:
       run: dotnet pack --configuration Release --no-build --output ./nupkgs
 
     - name: Publish NuGet package     
-      run: dotnet nuget push "/home/runner/work/NuGetPackage/NuGetPackage/nupkgs/AppLogger.1.0.0.nupkg" --api-key "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" --source "https://nuget.pkg.github.com/idhasitha/index.json"
+      run: dotnet nuget push "/home/runner/work/NuGetPackage/NuGetPackage/nupkgs/AppLogger.1.0.0.nupkg" --api-key "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" --source "https://nuget.pkg.github.com/idhasitha/index.json"
