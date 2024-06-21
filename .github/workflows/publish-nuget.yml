@@ -28,4 +28,4 @@ jobs:
       run: dotnet pack --configuration Release --no-build --output ./nupkgs
 
     - name: Publish NuGet package     
-      run: dotnet nuget push /nupkgs/*.nupkg --api-key ${{ secrets.GT_KEY }}  --source "github"
+      run: dotnet nuget push /home/runner/work/NuGetPackage/NuGetPackage/nupkgs/*.nupkg --api-key ${{ secrets.GT_KEY }}  --source "github"
